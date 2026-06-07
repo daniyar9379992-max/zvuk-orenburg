@@ -321,6 +321,30 @@ textarea:focus-visible {
   color: var(--muted);
 }
 
+.conversion-strip {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px clamp(18px, 6vw, 92px);
+  background: var(--dark);
+  color: #fff;
+}
+
+.conversion-strip div {
+  display: grid;
+  gap: 4px;
+}
+
+.conversion-strip strong {
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.05;
+}
+
+.conversion-strip span {
+  color: rgba(255, 255, 255, 0.72);
+}
+
 .section {
   padding: clamp(68px, 9vw, 112px) clamp(18px, 6vw, 92px);
 }
@@ -380,6 +404,48 @@ textarea:focus-visible {
 .service-grid p {
   margin: 12px 0 0;
   color: var(--muted);
+}
+
+.quick-picks {
+  background: var(--page);
+}
+
+.pick-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1160px;
+  margin: 42px auto 0;
+}
+
+.pick-grid article {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 280px;
+  padding: 26px;
+  background: var(--surface);
+  border: 1px solid rgba(29, 29, 31, 0.08);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.05);
+}
+
+.pick-grid span {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.pick-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.pick-grid .mini-button {
+  align-self: end;
+  justify-self: start;
+  margin-top: auto;
 }
 
 .catalog {
@@ -518,6 +584,42 @@ textarea:focus-visible {
   padding: 10px 14px;
   color: #fff;
   background: var(--blue);
+}
+
+.compare-section {
+  background: var(--surface);
+}
+
+.compare-table {
+  display: grid;
+  max-width: 1240px;
+  margin: 34px auto 0;
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.compare-table [role="row"] {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr 0.7fr 0.7fr;
+  gap: 1px;
+}
+
+.compare-table span {
+  display: grid;
+  align-items: center;
+  min-height: 56px;
+  padding: 14px;
+  background: var(--surface);
+}
+
+.compare-head span {
+  color: var(--muted);
+  background: var(--page);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .choose {
@@ -720,6 +822,117 @@ textarea:focus-visible {
   font-size: 14px;
 }
 
+.insights-section {
+  background: var(--page);
+}
+
+.insight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1240px;
+  margin: 34px auto 0;
+}
+
+.insight-grid article {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+  min-height: 420px;
+  padding: 22px;
+  background: var(--surface);
+  border: 1px solid rgba(29, 29, 31, 0.08);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.05);
+}
+
+.insight-grid span {
+  color: var(--amber);
+  font-size: 13px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+
+.insight-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.seller-answer {
+  padding: 13px;
+  color: #2f3137;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 14px;
+}
+
+.seller-answer b {
+  color: var(--ink);
+}
+
+.insight-grid .mini-button {
+  align-self: end;
+  margin-top: auto;
+}
+
+.buyer-checklist {
+  max-width: 1240px;
+  margin: 18px auto 0;
+  padding: 24px;
+  background: var(--dark);
+  color: #fff;
+  border-radius: var(--radius);
+}
+
+.buyer-checklist h3 {
+  margin-top: 0;
+}
+
+.buyer-checklist ul {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.buyer-checklist li {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.faq-section {
+  background: var(--page);
+}
+
+.faq-list {
+  display: grid;
+  gap: 10px;
+  max-width: 920px;
+  margin: 34px auto 0;
+}
+
+.faq-list details {
+  background: var(--surface);
+  border: 1px solid rgba(29, 29, 31, 0.08);
+  border-radius: var(--radius);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.04);
+}
+
+.faq-list summary {
+  min-height: 58px;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-weight: 780;
+}
+
+.faq-list p {
+  margin: 0;
+  padding: 0 20px 20px;
+  color: var(--muted);
+}
+
 .contact-band {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(320px, 0.78fr);
@@ -894,6 +1107,36 @@ textarea:focus-visible {
   font-size: 13px;
 }
 
+.sticky-cta {
+  position: fixed;
+  z-index: 60;
+  left: 50%;
+  bottom: 16px;
+  display: none;
+  overflow: hidden;
+  width: min(calc(100% - 32px), 420px);
+  background: rgba(17, 17, 20, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.26);
+  backdrop-filter: blur(18px);
+  transform: translateX(-50%);
+}
+
+.sticky-cta a {
+  flex: 1;
+  min-height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 800;
+}
+
+.sticky-cta a + a {
+  border-left: 1px solid rgba(255, 255, 255, 0.16);
+}
+
 @media (max-width: 1120px) {
   .hero {
     grid-template-columns: 1fr;
@@ -953,9 +1196,12 @@ textarea:focus-visible {
   .hero-facts,
   .service-grid,
   .section-heading,
+  .pick-grid,
   .choice-grid,
   .avito-band,
   .quote-grid,
+  .insight-grid,
+  .buyer-checklist ul,
   .footer,
   .contact-band {
     grid-template-columns: 1fr;
@@ -971,6 +1217,22 @@ textarea:focus-visible {
 
   .product-card.featured {
     grid-template-columns: 1fr;
+  }
+
+  .insight-grid article {
+    min-height: auto;
+  }
+
+  .compare-table [role="row"] {
+    grid-template-columns: 1fr;
+  }
+
+  .compare-table .compare-head {
+    display: none;
+  }
+
+  .compare-table span {
+    min-height: auto;
   }
 
   .contact-list div {
@@ -997,9 +1259,15 @@ textarea:focus-visible {
   }
 
   .hero-actions .button,
+  .conversion-strip .button,
   .avito-actions .button,
   .contact-actions .button {
     width: 100%;
+  }
+
+  .conversion-strip {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .hero-facts {
@@ -1027,5 +1295,13 @@ textarea:focus-visible {
   .mini-button,
   .copy-button {
     width: 100%;
+  }
+
+  body {
+    padding-bottom: 72px;
+  }
+
+  .sticky-cta {
+    display: flex;
   }
 }

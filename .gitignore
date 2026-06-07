@@ -1,5 +1,7 @@
 *.zip
 .server.*.log
 .zvuk-*.png
+.codex-*.png
+.chrome-*/
 assets/hero-speaker.png
 tools/

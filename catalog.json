@@ -1,0 +1,106 @@
+{
+  "store": {
+    "name": "Zvuk",
+    "city": "Оренбург",
+    "address": "Народная улица, 24",
+    "phone": "+7 987 799-33-99",
+    "messenger": "MAX по номеру телефона",
+    "avitoProfile": "https://www.avito.ru/user/fe1a34f795fc7a3657db424a7447bdf2/profile?src=sharing",
+    "ratingSource": "Avito",
+    "rating": 4.9,
+    "reviewCount": 389
+  },
+  "products": [
+    {
+      "id": "dance-box-200",
+      "name": "ELTRONIC Dance Box 200",
+      "priceRub": 6072,
+      "bestFor": ["дом", "подарок", "небольшая комната"],
+      "keySpecs": ["2 динамика 5 дюймов", "TWS", "переносной формат"],
+      "image": "assets/products/dance-box-200.jpg"
+    },
+    {
+      "id": "dance-box-600",
+      "name": "ELTRONIC Dance Box 600",
+      "priceRub": 8250,
+      "bestFor": ["дом", "дача", "караоке"],
+      "keySpecs": ["2 динамика 6.5 дюйма", "Bluetooth", "TWS", "подсветка"],
+      "image": "assets/products/dance-box-600.jpg"
+    },
+    {
+      "id": "dance-box-900",
+      "name": "ELTRONIC Dance Box 900",
+      "priceRub": 11088,
+      "bestFor": ["караоке", "гости", "двор"],
+      "keySpecs": ["RMS 90 Вт", "Bluetooth", "USB", "AUX", "MicroSD", "FM", "беспроводной микрофон"],
+      "image": "assets/products/dance-box-900.jpg"
+    },
+    {
+      "id": "dance-box-1000",
+      "name": "ELTRONIC Dance Box 1000",
+      "priceRub": 23045,
+      "bestFor": ["вечеринка", "дача", "громкий звук"],
+      "keySpecs": ["RMS 100 Вт", "2 динамика 8 дюймов", "TWS", "LED", "беспроводной микрофон"],
+      "image": "assets/products/dance-box-1000.jpg"
+    },
+    {
+      "id": "dance-box-300",
+      "name": "ELTRONIC Dance Box 300",
+      "priceRub": 20790,
+      "bestFor": ["улица", "праздник", "караоке"],
+      "keySpecs": ["RMS 80 Вт", "2 динамика 10 дюймов", "колеса", "ручка", "2 беспроводных микрофона"],
+      "image": "assets/products/dance-box-300.jpg"
+    },
+    {
+      "id": "dance-box-1500",
+      "name": "ELTRONIC Dance Box 1500",
+      "priceRub": 31185,
+      "bestFor": ["улица", "мероприятие", "большое пространство"],
+      "keySpecs": ["RMS 150 Вт", "2 динамика 12 дюймов", "2 беспроводных микрофона", "аккумулятор до 5 часов"],
+      "image": "assets/products/dance-box-1500.jpg"
+    }
+  ],
+  "marketplaceInsights": [
+    {
+      "topic": "battery",
+      "buyerQuestion": "Сколько реально работает аккумулятор?",
+      "sellerAnswer": "Время зависит от громкости, подсветки и микрофонов. Перед покупкой нужно уточнить сценарий и проверить заряд."
+    },
+    {
+      "topic": "sound",
+      "buyerQuestion": "Будет ли хрипеть на максимуме?",
+      "sellerAnswer": "Лучше проверить свою музыку на месте. На максимуме результат зависит от трека, эквалайзера и баса."
+    },
+    {
+      "topic": "microphones",
+      "buyerQuestion": "Микрофоны нормально работают?",
+      "sellerAnswer": "Перед покупкой стоит проверить эхо, фон, задержку и расстояние до колонки."
+    },
+    {
+      "topic": "tws-radio",
+      "buyerQuestion": "Работает ли TWS и хорошо ли ловит радио?",
+      "sellerAnswer": "TWS лучше проверять с конкретной парой колонок. Радио в помещении может ловить нестабильно."
+    },
+    {
+      "topic": "outdoor-power",
+      "buyerQuestion": "Хватит ли громкости на улице?",
+      "sellerAnswer": "Для улицы и праздника не стоит брать модель впритык. Нужен запас по динамикам и громкости, особенно если будут гости и караоке."
+    },
+    {
+      "topic": "delivery-check",
+      "buyerQuestion": "Как не ошибиться при доставке?",
+      "sellerAnswer": "До отправки нужно подтвердить точную модель, цену, комплектацию, коробку, гарантию и способ проверки при получении."
+    },
+    {
+      "topic": "gift",
+      "buyerQuestion": "Что выбрать в подарок?",
+      "sellerAnswer": "Для подарка обычно безопаснее компактные Dance Box 200 или 600. Если человек любит караоке и громкие встречи, стоит уточнить 900 или 1000."
+    }
+  ],
+  "trackingLinks": {
+    "avito": "https://daniyar9379992-max.github.io/zvuk-orenburg/?src=avito",
+    "yandexMaps": "https://daniyar9379992-max.github.io/zvuk-orenburg/?src=yandexmaps",
+    "twoGis": "https://daniyar9379992-max.github.io/zvuk-orenburg/?src=2gis",
+    "qr": "https://daniyar9379992-max.github.io/zvuk-orenburg/?src=qr"
+  }
+}

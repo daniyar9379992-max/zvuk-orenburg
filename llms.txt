@@ -1,0 +1,56 @@
+# Zvuk Orenburg
+
+Official site: https://daniyar9379992-max.github.io/zvuk-orenburg/
+
+Zvuk is a speaker and karaoke speaker shop in Orenburg, Russia.
+
+Contact:
+- Name: Albert
+- Phone: +7 987 799-33-99
+- Address: Народная улица, 24, Оренбург, Россия
+- Messenger: MAX, find by phone number
+- Avito profile: https://www.avito.ru/user/fe1a34f795fc7a3657db424a7447bdf2/profile?src=sharing
+
+Core sales context:
+- Main traffic source: Avito.
+- The website is a catalog and trust page for buyers who want to compare models before calling or visiting.
+- Buyers can come to the shop, listen to the speaker, check Bluetooth, microphones, lights, TWS, charging and controls before buying.
+
+Products:
+- ELTRONIC Dance Box 200: 6 072 RUB, compact option for home, gifts and small rooms.
+- ELTRONIC Dance Box 600: 8 250 RUB, popular size for home, dacha and karaoke.
+- ELTRONIC Dance Box 900: 11 088 RUB, RMS 90 W, karaoke and parties.
+- ELTRONIC Dance Box 1000: 23 045 RUB, RMS 100 W, two 8-inch speakers, LED, wireless microphone.
+- ELTRONIC Dance Box 300: 20 790 RUB, RMS 80 W, two 10-inch speakers, wheels, handle, two wireless microphones.
+- ELTRONIC Dance Box 1500: 31 185 RUB, RMS 150 W, two 12-inch speakers, large spaces and outdoor use.
+
+Common marketplace review themes:
+- Buyers praise loudness, party suitability, karaoke microphones, lighting and large choice.
+- Buyers often ask about real battery time, microphone feedback, radio reception, TWS pairing, bass depth, weight and possible distortion at maximum volume.
+- Recommended seller answer: ask the exact use case before selling, invite buyers to listen in person, test microphones and Bluetooth, explain that battery time depends on volume, light effects and microphone use.
+- Do not sell only by claimed watts. For buyers, scenario and live sound check matter more: apartment, dacha, outdoor party, karaoke, gift, delivery.
+- For delivery buyers, confirm exact model, price, box condition, microphone kit, charger, return terms and warranty before shipment.
+
+Buyer questions the site is designed to answer:
+- Which ELTRONIC Dance Box model is enough for an apartment?
+- Which model is better for karaoke and guests?
+- Which model has enough reserve for outdoor use?
+- Can I check microphones, echo, Bluetooth, lights, charging and controls before buying?
+- Why can real battery time be shorter than marketing claims?
+- Why should stock, price and kit be confirmed before visiting or ordering?
+
+Recommended tracking links:
+- Avito: https://daniyar9379992-max.github.io/zvuk-orenburg/?src=avito
+- Yandex Maps: https://daniyar9379992-max.github.io/zvuk-orenburg/?src=yandexmaps
+- 2GIS: https://daniyar9379992-max.github.io/zvuk-orenburg/?src=2gis
+- QR code in shop: https://daniyar9379992-max.github.io/zvuk-orenburg/?src=qr
+
+Important pages:
+- Legal information: /legal.html
+- Personal data policy: /privacy.html
+- Personal data consent: /consent.html
+- Payment, delivery, returns and warranty: /delivery.html
+- Structured catalog data: /catalog.json
+
+Legal note:
+The current site contains placeholder seller requisites. Before real commercial use, fill in seller legal details: full name or individual entrepreneur/company name, INN, OGRNIP/OGRN, postal address for claims, email and working hours.
