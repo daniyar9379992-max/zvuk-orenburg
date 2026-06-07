@@ -1250,6 +1250,36 @@ textarea:focus-visible {
     padding-inline: 16px;
   }
 
+  .hero-product {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    align-items: end;
+    width: min(100%, 340px);
+    min-height: auto;
+    margin-top: 26px;
+  }
+
+  .hero-product img {
+    position: static;
+    justify-self: center;
+    width: 100%;
+    max-height: 154px;
+    object-fit: contain;
+    transform: none;
+  }
+
+  .hero-main {
+    grid-column: 1 / -1;
+    width: min(78vw, 300px);
+    max-height: 292px;
+  }
+
+  .hero-side {
+    width: 100%;
+    opacity: 1;
+  }
+
   h1 {
     font-size: clamp(44px, 13vw, 66px);
   }
