@@ -1,0 +1,5 @@
+*.zip
+.server.*.log
+.zvuk-*.png
+assets/hero-speaker.png
+tools/
