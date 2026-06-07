@@ -683,6 +683,43 @@ textarea:focus-visible {
   font-weight: 740;
 }
 
+.reviews-section {
+  background: var(--surface);
+}
+
+.quote-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1240px;
+  margin: 42px auto 0;
+}
+
+.quote-grid figure {
+  display: grid;
+  align-content: space-between;
+  min-height: 190px;
+  margin: 0;
+  padding: 24px;
+  background: var(--page);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.quote-grid blockquote {
+  margin: 0;
+  color: var(--ink);
+  font-size: 24px;
+  line-height: 1.14;
+  font-weight: 760;
+}
+
+.quote-grid figcaption {
+  margin-top: 24px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .contact-band {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(320px, 0.78fr);
@@ -774,14 +811,87 @@ textarea:focus-visible {
 }
 
 .footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: minmax(220px, 0.65fr) minmax(240px, 0.8fr) minmax(260px, 1.2fr);
+  gap: 18px;
   padding: 22px clamp(18px, 6vw, 92px);
   color: var(--muted);
   background: #050506;
   font-size: 14px;
+}
+
+.footer div,
+.footer nav {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.footer strong {
+  color: #fff;
+}
+
+.footer a {
+  color: #d7d7dc;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.legal-body {
+  background: var(--page);
+}
+
+.legal-header {
+  padding: 18px clamp(18px, 6vw, 92px);
+  background: rgba(245, 245, 247, 0.86);
+  border-bottom: 1px solid var(--line);
+}
+
+.legal-header a {
+  color: var(--blue);
+  font-weight: 740;
+}
+
+.legal-main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: clamp(42px, 8vw, 86px) 18px;
+}
+
+.legal-card {
+  padding: clamp(24px, 5vw, 46px);
+  background: var(--surface);
+  border: 1px solid rgba(29, 29, 31, 0.08);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.legal-card h1 {
+  margin: 0;
+  font-size: clamp(36px, 6vw, 64px);
+}
+
+.legal-card h2 {
+  margin-top: 34px;
+  font-size: clamp(24px, 3vw, 34px);
+}
+
+.legal-card p,
+.legal-card li {
+  color: #3d3d42;
+}
+
+.legal-card .small-print {
+  padding: 14px;
+  color: var(--muted);
+  background: var(--page);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  font-size: 13px;
 }
 
 @media (max-width: 1120px) {
@@ -845,6 +955,8 @@ textarea:focus-visible {
   .section-heading,
   .choice-grid,
   .avito-band,
+  .quote-grid,
+  .footer,
   .contact-band {
     grid-template-columns: 1fr;
   }

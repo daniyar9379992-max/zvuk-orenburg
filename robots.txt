@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daniyar9379992-max.github.io/zvuk-orenburg/sitemap.xml
